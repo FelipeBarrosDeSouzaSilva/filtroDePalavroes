@@ -4,7 +4,7 @@
 function rastrear(){
   var frase = document.getElementById('resp').value;
   
-  var palavras_feias = Array('puta','bunda', 'cu ', ' cu', ' cu,', ' cu!', 'porra', 'arrombado','arrombada', 'buceta', 'caralho', 'cusão', 'cusao', 'cuzao', 'cuzão', 'bosta');
+  var palavras_feias = Array('palavrao1','palavrao2', 'palavrao3 ', ' palavrao4', ' palavrao5);
   
   palavras_feias.forEach((key)=>{
     var detectar = frase.indexOf(key);
